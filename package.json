@@ -14,7 +14,8 @@
     "grunt-cwebp": "^3.0.3",
     "grunt-processhtml": "^0.4.2",
     "grunt-uncss": "^0.9.1",
-    "load-grunt-tasks": "^5.1.0"
+    "load-grunt-tasks": "^5.1.0",
+    "trim-newlines": ">=3.0.1"
   },
   "scripts": {
     "build": "grunt build",
