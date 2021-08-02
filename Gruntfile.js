@@ -60,7 +60,17 @@ module.exports = function (grunt) {
           'out/index.html': 'out/index.html'
         }
       }
-    }
+    },
+    browserSync: {
+      bsFiles: {
+          src : 'assets/css/*.css'
+      },
+      options: {
+          server: {
+              baseDir: "./"
+          }
+      }
+  }
   });
 
   require('load-grunt-tasks')(grunt);
