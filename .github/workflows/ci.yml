@@ -20,7 +20,7 @@ jobs:
         run: npm install
       - name: Run build via grunt
         run: npm run build
-      - uses: actions/upload-artifact@v2.3.1
+      - uses: actions/upload-artifact@v3
         with:
           name: website-source
           path: out/
